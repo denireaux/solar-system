@@ -1,0 +1,6 @@
+services:
+  solar-system:
+    container_name: solar-system 
+    build: .
+    ports:
+      - 5173:5173
